@@ -1,0 +1,41 @@
+# ==========================================
+# Virtual Environments (DO NOT TRACK)
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+bin/
+include/
+lib/
+lib64/
+
+# ==========================================
+# Local Homelab Data & Databases
+# ==========================================
+*.db
+*.sqlite3
+homelab_inventory.db
+
+# Private local inventory (use devices.template.json for Git)
+devices.json
+
+# ==========================================
+# Python Byte-code & Caches
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+
+# ==========================================
+# IDE & Operating System Files
+# ==========================================
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

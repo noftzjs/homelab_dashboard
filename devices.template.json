@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Router Gateway",
+    "ip": "192.168.1.1",
+    "type": "Router",
+    "port": null,
+    "path": null,
+    "custom_url": null
+  },
+  {
+    "name": "Media Server",
+    "ip": "192.168.1.50",
+    "type": "Server",
+    "port": 32400,
+    "path": "web",
+    "custom_url": null
+  }
+]
